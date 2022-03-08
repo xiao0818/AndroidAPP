@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:16:1-34:12
-INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:16:1-34:12
-INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:16:1-34:12
-INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:16:1-34:12
+ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:16:1-34:12
+INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:16:1-34:12
+INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:16:1-34:12
+INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:16:1-34:12
 MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\152510c67ccf14f8c2445d02e94f7d74\appcompat-v7-25.0.1\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-v4:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\0709cdc78c7d78bc3c0c74d5834b7130\support-v4-25.0.1\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\0e63a7461039cdc8a5cdc88139ad5c31\animated-vector-drawable-25.0.1\AndroidManifest.xml:17:1-24:12
@@ -13,25 +13,25 @@ MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\kta23\.gr
 MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\2537497d80119decdba86d58c00352d7\support-core-utils-25.0.1\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\e2505dfb087babdf331429d235d00a97\support-core-ui-25.0.1\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-compat:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\dc60d090095defe06a94ae8d6181b527\support-compat-25.0.1\AndroidManifest.xml:17:1-27:12
-INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:16:1-34:12
-INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:16:1-34:12
-INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:16:1-34:12
+INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:16:1-34:12
+INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:16:1-34:12
+INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:16:1-34:12
 	package
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:17:5-48
-		INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:17:5-48
+		INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:16:1-34:12
-		INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:16:1-34:12
+		INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:16:1-34:12
-		INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:16:1-34:12
+		INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:16:11-69
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:16:11-69
 application
-ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:19:5-32:19
+ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:19:5-32:19
 MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\152510c67ccf14f8c2445d02e94f7d74\appcompat-v7-25.0.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\152510c67ccf14f8c2445d02e94f7d74\appcompat-v7-25.0.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\0709cdc78c7d78bc3c0c74d5834b7130\support-v4-25.0.1\AndroidManifest.xml:25:5-20
@@ -51,33 +51,33 @@ MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\kta23\.gradle\
 MERGED from [com.android.support:support-compat:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\dc60d090095defe06a94ae8d6181b527\support-compat-25.0.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\dc60d090095defe06a94ae8d6181b527\support-compat-25.0.1\AndroidManifest.xml:25:5-20
 	android:supportsRtl
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:22:9-41
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:22:9-41
 	android:icon
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:21:9-43
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:21:9-43
 	android:allowBackup
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:20:9-35
 	android:theme
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:24:9-40
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:24:9-40
 activity#com.example.android.scrollingtext.MainActivity
-ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:25:9-31:20
+ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:25:19-47
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:25:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml:29:27-74
 uses-sdk
-INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
-INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
+INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
+INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\152510c67ccf14f8c2445d02e94f7d74\appcompat-v7-25.0.1\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\152510c67ccf14f8c2445d02e94f7d74\appcompat-v7-25.0.1\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\0709cdc78c7d78bc3c0c74d5834b7130\support-v4-25.0.1\AndroidManifest.xml:21:5-23:54
@@ -96,15 +96,15 @@ MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\kta23\.gradle\
 MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\e2505dfb087babdf331429d235d00a97\support-core-ui-25.0.1\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\dc60d090095defe06a94ae8d6181b527\support-compat-25.0.1\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\dc60d090095defe06a94ae8d6181b527\support-compat-25.0.1\AndroidManifest.xml:21:5-23:58
-INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
-INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
+INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
+INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.0.1] C:\Users\kta23\.gradle\caches\transforms-2\files-2.1\152510c67ccf14f8c2445d02e94f7d74\appcompat-v7-25.0.1\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
-		ADDED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Desktop\110-2\Android\ScrollingText2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\110-2\Android\AndroidAPP\HW3\HW3-1\app\src\main\AndroidManifest.xml

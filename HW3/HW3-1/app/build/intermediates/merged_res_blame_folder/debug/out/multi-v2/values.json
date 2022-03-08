@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Desktop\\110-2\\Android\\ScrollingText2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW3\\HW3-1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "D:\\Desktop\\110-2\\Android\\ScrollingText2\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "15,18,20,16",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "578,698,787,630",
-                        "endLines": "15,18,40,16",
-                        "endColumns": "51,87,9,66",
-                        "endOffsets": "625,781,5163,692"
-                    },
-                    "to": {
-                        "startLines": "219,220,221,242",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "14802,14854,14942,19323",
-                        "endLines": "219,220,241,242",
-                        "endColumns": "51,87,9,66",
-                        "endOffsets": "14849,14937,19318,19385"
-                    }
-                },
-                {
-                    "source": "D:\\Desktop\\110-2\\Android\\ScrollingText2\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW3\\HW3-1\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "17",
                         "startColumns": "4",
@@ -42,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Desktop\\110-2\\Android\\ScrollingText2\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW3\\HW3-1\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "18,16,17",
                         "startColumns": "4,4,4",
@@ -78,7 +59,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Desktop\\110-2\\Android\\ScrollingText2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW3\\HW3-1\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "16,17,19,18",
                         "startColumns": "4,4,4,4",
@@ -92,6 +73,25 @@
                         "startOffsets": "9781,9839,10679,11700",
                         "endColumns": "57,55,42,46",
                         "endOffsets": "9834,9890,10717,11742"
+                    }
+                },
+                {
+                    "source": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW3\\HW3-1\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "15,18,20,16",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "578,698,787,630",
+                        "endLines": "15,18,40,16",
+                        "endColumns": "51,87,9,66",
+                        "endOffsets": "625,781,5163,692"
+                    },
+                    "to": {
+                        "startLines": "219,220,221,242",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "14802,14854,14942,19323",
+                        "endLines": "219,220,241,242",
+                        "endColumns": "51,87,9,66",
+                        "endOffsets": "14849,14937,19318,19385"
                     }
                 }
             ]
