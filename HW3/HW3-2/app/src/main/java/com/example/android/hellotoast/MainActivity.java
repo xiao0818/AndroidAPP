@@ -16,6 +16,7 @@
 
 package com.example.android.hellotoast;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -32,6 +33,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String EXTRA_MESSAGE =
+            "com.example.android.hellotoast.extra.MESSAGE";
     private int mCount = 0;
     private TextView mShowCount;
 
@@ -50,9 +53,10 @@ public class MainActivity extends AppCompatActivity {
     *             the passed in view is not used.
     */
     public void showToast(View view) {
-        Toast toast = Toast.makeText(this, R.string.toast_message,
-                Toast.LENGTH_SHORT);
-        toast.show();
+        Intent intent = new Intent(this, SecondActivity.class);
+        String message = mShowCount.getText().toString();
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
     }
 
     /*

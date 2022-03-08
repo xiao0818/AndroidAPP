@@ -1,4 +1,6 @@
-com/example/android/hellotoast/MainActivity.java
- com.example.android.hellotoast.MainActivity
 com/example/android/hellotoast/BuildConfig.java
  com.example.android.hellotoast.BuildConfig
+com/example/android/hellotoast/SecondActivity.java
+ com.example.android.hellotoast.SecondActivity
+com/example/android/hellotoast/MainActivity.java
+ com.example.android.hellotoast.MainActivity

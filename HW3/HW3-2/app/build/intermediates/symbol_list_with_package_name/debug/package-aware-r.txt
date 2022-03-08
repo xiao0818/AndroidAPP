@@ -733,6 +733,8 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id text_count
+id text_hello
 id time
 id title
 id titleDividerNoCustom
@@ -778,6 +780,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout activity_main
+layout activity_second
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

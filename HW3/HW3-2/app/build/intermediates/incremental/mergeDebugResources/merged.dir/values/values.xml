@@ -329,7 +329,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Hello Toast</string>
     <string name="button_label_count">Count</string>
-    <string name="button_label_toast">Toast</string>
+    <string name="button_label_toast">Say Hello</string>
     <string name="count_initial_value">0</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
