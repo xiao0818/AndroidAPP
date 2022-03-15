@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW5\\HW5-1\\108820028_HW5-1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW5\\HW5-1\\108820028_HW5-1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW5\\HW5-1\\108820028_HW5-1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW5\\HW5-1\\108820028_HW5-1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW5\\HW5-1\\108820028_HW5-1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW5\\HW5-1\\108820028_HW5-1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW5\\HW5-1\\108820028_HW5-1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW5\\HW5-1\\108820028_HW5-1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW5\\HW5-1\\108820028_HW5-1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW5\\HW5-1\\108820028_HW5-1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW5\\HW5-1\\108820028_HW5-1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\HW5\\HW5-1\\108820028_HW5-1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]
