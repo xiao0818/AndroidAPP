@@ -41,14 +41,14 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="143dp">
 
         <Button
             android:id="@+id/operation_add_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onAdd"
-            android:text="@string/add_operation_text"/>
+            android:text="@string/add_operation_text" />
 
         <Button
             android:id="@+id/operation_sub_btn"
@@ -57,7 +57,7 @@
             android:layout_toEndOf="@id/operation_add_btn"
             android:layout_toRightOf="@id/operation_add_btn"
             android:onClick="onSub"
-            android:text="@string/sub_operation_text"/>
+            android:text="@string/sub_operation_text" />
 
         <Button
             android:id="@+id/operation_div_btn"
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/operation_add_btn"
             android:onClick="onDiv"
-            android:text="@string/div_operation_text"/>
+            android:text="@string/div_operation_text" />
 
         <Button
             android:id="@+id/operation_mul_btn"
@@ -75,7 +75,20 @@
             android:layout_toEndOf="@id/operation_add_btn"
             android:layout_toRightOf="@id/operation_add_btn"
             android:onClick="onMul"
-            android:text="@string/mul_operation_text"/>
+            android:text="@string/mul_operation_text" />
+
+        <Button
+            android:id="@+id/operation_pow_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="0dp"
+            android:onClick="onPow"
+            android:text="pow" />
 
     </RelativeLayout>
 

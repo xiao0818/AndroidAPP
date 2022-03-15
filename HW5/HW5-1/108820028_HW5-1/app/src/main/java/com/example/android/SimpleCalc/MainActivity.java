@@ -83,6 +83,19 @@ public class MainActivity extends Activity {
     }
 
     /**
+     * OnClick method called when the power Button is pressed.
+     */
+    public void onPow(View view) {
+        compute(Calculator.Operator.POW);
+//        try {
+//            compute(Calculator.Operator.POW);
+//        } catch (IllegalArgumentException iae) {
+//            Log.e(TAG, "IllegalArgumentException", iae);
+//            mResultTextView.setText(getString(R.string.computationError));
+//        }
+    }
+
+    /**
      * OnClick method called when the multiply Button is pressed.
      */
     public void onMul(View view) {
@@ -118,6 +131,9 @@ public class MainActivity extends Activity {
             case MUL:
                 result = String.valueOf(
                         mCalculator.mul(operandOne, operandTwo));
+                break;
+            case POW:
+                result = String.valueOf(mCalculator.pow(operandOne, operandTwo));
                 break;
             default:
                 result = getString(R.string.computationError);
