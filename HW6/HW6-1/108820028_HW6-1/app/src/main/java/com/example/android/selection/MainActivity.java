@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         checkBoxIdList[4] = R.id.fifth_checkBox;
     }
 
-    public void showToast(View view) {
+    public void onSubmit(View view) {
         String message = "Toppings: ";
         for (int i = 0; i < 5; i++){
             CheckBox checkBox = (CheckBox) findViewById(checkBoxIdList[i]);
@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        Toast.makeText(getApplicationContext(), message,
-                Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
     }
 }

@@ -71,6 +71,6 @@
             android:layout_marginLeft="16dp"
             android:text="Show Toast"
             app:layout_constraintStart_toStartOf="parent"
-            android:onClick = "showToast"/>
+            android:onClick = "onSubmit"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
