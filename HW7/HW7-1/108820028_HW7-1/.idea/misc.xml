@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Desktop/110-2/Android/AndroidAPP/HW7/HW7-1/108820028_HW7-1/app/src/main/res/layout/activity_donut.xml" value="0.2821557971014493" />
+        <entry key="..\:/Desktop/110-2/Android/AndroidAPP/HW7/HW7-1/108820028_HW7-1/app/src/main/res/layout/activity_froyo.xml" value="0.2821557971014493" />
+        <entry key="..\:/Desktop/110-2/Android/AndroidAPP/HW7/HW7-1/108820028_HW7-1/app/src/main/res/layout/activity_ice_cream.xml" value="0.2821557971014493" />
+        <entry key="..\:/Desktop/110-2/Android/AndroidAPP/HW7/HW7-1/108820028_HW7-1/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Desktop/110-2/Android/AndroidAPP/HW7/HW7-1/108820028_HW7-1/app/src/main/res/layout/content_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.19610507246376813" />

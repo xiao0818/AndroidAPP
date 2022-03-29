@@ -1,5 +1,6 @@
  package com.example.android;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -52,5 +53,20 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void launchDonutActivity(View view) {
+        Intent intent = new Intent(this, DonutActivity.class);
+        startActivity(intent);
+    }
+
+    public void launchFroyoActivity(View view) {
+        Intent intent = new Intent(this, FroyoActivity.class);
+        startActivity(intent);
+    }
+
+    public void launchIceCreamActivity(View view) {
+        Intent intent = new Intent(this, IceCreamActivity.class);
+        startActivity(intent);
     }
 }
