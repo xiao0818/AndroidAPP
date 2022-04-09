@@ -1,6 +1,7 @@
 package com.example.android;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,15 +16,28 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.Re
     private final LinkedList<String> mDescriptionList;
     private LayoutInflater mInflater;
 
-    class RecipeViewHolder extends RecyclerView.ViewHolder{
+    class RecipeViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public final TextView listItemTitleView;
         public final TextView listItemContentView;
         final RecipeListAdapter mAdapter;
+
         public RecipeViewHolder(View itemView, RecipeListAdapter adapter) {
             super(itemView);
             listItemTitleView = itemView.findViewById(R.id.listItemTitle);
             listItemContentView = itemView.findViewById(R.id.listItemContent);
             this.mAdapter = adapter;
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            // Get the position of the item that was clicked.
+            int mPosition = getLayoutPosition();
+
+            Intent intent = new Intent(view.getContext(), DescriptionActivity.class);
+            String message = String.valueOf(mPosition);
+            intent.putExtra("com.example.android.extra.MESSAGE", message);
+            view.getContext().startActivity(intent);
         }
     }
 
