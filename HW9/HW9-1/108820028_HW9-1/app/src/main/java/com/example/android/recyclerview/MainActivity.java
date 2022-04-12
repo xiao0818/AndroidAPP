@@ -19,6 +19,7 @@ package com.example.android.recyclerview;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -73,7 +74,9 @@ public class MainActivity extends AppCompatActivity {
         // Connect the adapter with the recycler view.
         mRecyclerView.setAdapter(mAdapter);
         // Give the recycler view a default layout manager.
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+//        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        int gridColumnCount = getResources().getInteger(R.integer.grid_column_count);
+        mRecyclerView.setLayoutManager(new GridLayoutManager(this, gridColumnCount));
     }
 
     /**
