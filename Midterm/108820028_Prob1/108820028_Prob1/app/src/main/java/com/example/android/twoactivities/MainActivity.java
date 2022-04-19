@@ -21,8 +21,13 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * The TwoActivities app contains two activities and sends messages
@@ -58,6 +63,16 @@ public class MainActivity extends AppCompatActivity {
         mMessageEditText = findViewById(R.id.editText_main);
         mReplyHeadTextView = findViewById(R.id.text_header_reply);
         mReplyTextView = findViewById(R.id.text_message_reply);
+
+        // Create the spinner.
+        Spinner spinner = findViewById(R.id.label_spinner);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.labels_array, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource
+                (android.R.layout.simple_spinner_dropdown_item);
+        if (spinner != null) {
+            spinner.setAdapter(adapter);
+        }
     }
 
     /**
@@ -100,6 +115,34 @@ public class MainActivity extends AppCompatActivity {
                 mReplyTextView.setText(reply);
                 mReplyTextView.setVisibility(View.VISIBLE);
             }
+        }
+    }
+
+    public void displayToast(String message) {
+        Toast.makeText(getApplicationContext(), message,
+                Toast.LENGTH_SHORT).show();
+    }
+
+    public void onItemSelected(AdapterView<?> adapterView,
+                               View view, int i, long l) {
+        String spinnerLabel = adapterView.getItemAtPosition(i).toString();
+        displayToast(spinnerLabel);
+    }
+
+
+    public void onRadioButtonClicked(View view) {
+        boolean checked = ((RadioButton) view).isChecked();
+        switch (view.getId()) {
+            case R.id.male:
+                if (checked)
+                    displayToast("male");
+                break;
+            case R.id.female:
+                if (checked)
+                    displayToast("female");
+                break;
+            default:
+                break;
         }
     }
 }
