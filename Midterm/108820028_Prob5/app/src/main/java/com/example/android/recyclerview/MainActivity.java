@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 int wordListSize = mWordList.size();
                 // Add a new word to the wordList.
-                mWordList.addLast("+ Word " + wordListSize);
+                mWordList.addLast("+ Student " + wordListSize);
                 // Notify the adapter, that the data has changed.
                 mRecyclerView.getAdapter().notifyItemInserted(wordListSize);
                 // Scroll to the bottom.
@@ -62,8 +62,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Put initial data into the word list.
-        for (int i = 0; i < 20; i++) {
-            mWordList.addLast("Word " + i);
+        for (int i = 0; i < 10; i++) {
+            mWordList.addLast("Student " + i);
         }
 
         // Create recycler view.

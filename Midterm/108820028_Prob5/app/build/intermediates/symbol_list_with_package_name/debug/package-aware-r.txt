@@ -759,6 +759,7 @@ drawable design_snackbar_background
 drawable ic_add_for_fab
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_person_add
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -856,6 +857,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView2
 id info
 id italic
 id item_touch_helper_previous_elevation
