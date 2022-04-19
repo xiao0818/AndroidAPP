@@ -16,9 +16,11 @@
 
 package com.example.android.navdrawerexperiment;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -151,11 +153,6 @@ public class MainActivity extends AppCompatActivity
                 drawer.closeDrawer(GravityCompat.START);
                 displayToast(getString(R.string.chose_slideshow));
                 return true;
-            case R.id.nav_manage:
-                // Handle the tools action (for now display a toast).
-                drawer.closeDrawer(GravityCompat.START);
-                displayToast(getString(R.string.chose_tools));
-                return true;
             case R.id.nav_share:
                 // Handle the share action (for now display a toast).
                 drawer.closeDrawer(GravityCompat.START);
@@ -177,5 +174,34 @@ public class MainActivity extends AppCompatActivity
      */
     public void displayToast(String message) {
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
+    }
+
+    public void onClickShowAlert(View view) {
+        AlertDialog.Builder myAlertBuilder = new
+                AlertDialog.Builder(MainActivity.this);
+        // Set the dialog title and message.
+        myAlertBuilder.setTitle("Alert");
+        myAlertBuilder.setMessage("Click OK to continue, or Cancel to stop:");
+        // Add the dialog buttons.
+
+        // Add the dialog buttons.
+        myAlertBuilder.setPositiveButton("OK", new
+                DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        // User clicked OK button.
+                        Toast.makeText(getApplicationContext(), "OK Button is pressed",
+                                Toast.LENGTH_SHORT).show();
+                    }
+                });
+        myAlertBuilder.setNegativeButton("Cancel", new
+                DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        // User cancelled the dialog.
+                        Toast.makeText(getApplicationContext(), "CANCEL Button is pressed",
+                                Toast.LENGTH_SHORT).show();
+                    }
+                });
+        // Create and show the AlertDialog.
+        myAlertBuilder.show();
     }
 }

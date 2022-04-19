@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Desktop\\110-2\\Android\\NavDrawerExperiment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\Midterm\\108820028_Prob4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\Desktop\\110-2\\Android\\NavDrawerExperiment\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\Midterm\\108820028_Prob4\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "18",
                         "startColumns": "4",

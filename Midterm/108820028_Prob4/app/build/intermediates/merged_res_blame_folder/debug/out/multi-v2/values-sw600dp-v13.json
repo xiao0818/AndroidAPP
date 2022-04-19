@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Desktop\\110-2\\Android\\NavDrawerExperiment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\Midterm\\108820028_Prob4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kta23\\.gradle\\caches\\transforms-3\\a8e8b4144b348d74e51bac3261ff94fa\\transformed\\design-27.1.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",

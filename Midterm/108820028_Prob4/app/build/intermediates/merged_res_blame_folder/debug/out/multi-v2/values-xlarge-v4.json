@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Desktop\\110-2\\Android\\NavDrawerExperiment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "D:\\Desktop\\110-2\\Android\\AndroidAPP\\Midterm\\108820028_Prob4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kta23\\.gradle\\caches\\transforms-3\\91c57ba27c7a066ef72bfa60a7f0541c\\transformed\\appcompat-v7-27.1.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
