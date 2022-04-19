@@ -1,0 +1,382 @@
+04-12 14:54:32.681 26332 26360 I TestRunner: started: scorePlusMinusTest(com.example.android.scorekeeper.ScorePlusMinusTest)
+04-12 14:54:32.688 26332 26332 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+04-12 14:54:32.690 26332 26360 W ActivityTestRule: getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+04-12 14:54:32.690 26332 26360 I ActivityTestRule: Launching activity: ComponentInfo{com.example.android.scorekeeper/com.example.android.scorekeeper.MainActivity}
+04-12 14:54:32.692 18018 18018 D RcsClientLib: Service com.google.android.rcs.client.locationsharing.LocationSharingService connected. Will notify listeners: true
+04-12 14:54:32.692 18018 18018 V BugleRcs: com.google.android.rcs.client.locationsharing.LocationSharingService RCS service connected
+04-12 14:54:32.696 26332 26363 D MonitoringInstr: execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle
+04-12 14:54:32.710 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:32.712 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:32.712 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:32.730 18018 18155 I CarrierServices: [586] jsn.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+04-12 14:54:32.730 18018 18155 I CarrierServices: [586] jsn.connect: Binding to JibeService in CarrierServices.
+04-12 14:54:32.795 26332 26332 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@3ad0bb2
+04-12 14:54:32.818 18018 18018 D RcsClientLib: Service com.google.android.rcs.client.ims.ImsConnectionTrackerService connected. Will notify listeners: true
+04-12 14:54:32.820 18018 18018 V BugleRcs: com.google.android.rcs.client.ims.ImsConnectionTrackerService RCS service connected
+04-12 14:54:32.860  1655  1655 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+04-12 14:54:32.866 18018 18018 V BugleRcs: kicking off RCS sending/receiving
+04-12 14:54:32.900  1991  2150 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@ae3f5fb)
+04-12 14:54:32.903  1991  2017 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@ae3f5fb)
+04-12 14:54:32.905 18018 18018 V BugleAction: no RCS because we're not registered
+04-12 14:54:32.953 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:33.026 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:33.026 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:33.104 18018 18155 I CarrierServices: [586] jsn.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+04-12 14:54:33.104 18018 18155 I CarrierServices: [586] jsn.connect: Binding to JibeService in CarrierServices.
+04-12 14:54:33.106 26332 26332 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@ade24b9 in: PRE_ON_CREATE
+04-12 14:54:33.166 18018 18018 D RcsClientLib: Service com.google.android.rcs.client.profile.RcsProfileService connected. Will notify listeners: true
+04-12 14:54:33.166 18018 18018 V BugleRcs: com.google.android.rcs.client.profile.RcsProfileService RCS service connected
+04-12 14:54:33.169 18018 18018 V BugleRcs: kicking off RCS sending/receiving
+04-12 14:54:33.174 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:33.185 18018 18018 V BugleAction: no RCS because we're not registered
+04-12 14:54:33.188  4371  4587 W CarrierServices: [232] bmc.a: No config URL. RCS will be disabled!
+04-12 14:54:33.188 18018 18018 I BugleRcs: RcsAvailability ACS url: null
+04-12 14:54:33.189 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:33.189 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:33.194 18018 18155 I CarrierServices: [586] jsn.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+04-12 14:54:33.194 18018 18155 I CarrierServices: [586] jsn.connect: Binding to JibeService in CarrierServices.
+04-12 14:54:33.209 18018 18018 D RcsClientLib: Service com.google.android.rcs.client.businessinfo.BusinessInfoService connected. Will notify listeners: true
+04-12 14:54:33.209 18018 18018 V BugleRcs: com.google.android.rcs.client.businessinfo.BusinessInfoService RCS service connected
+04-12 14:54:33.222 18018 18155 W RcsProvisioning: Failed to read configuration: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: java.io.FileNotFoundException: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open0(Native Method)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open(FileInputStream.java:231)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.<init>(FileInputStream.java:165)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:560)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:202)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: 	at ion.a(SourceFile:2)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: 	at idl.a(SourceFile:4)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: 	at idm.a(SourceFile:7)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: 	at com.google.android.apps.messaging.rcsmigration.RcsStateProvider.onMigrationComplete(SourceFile:27)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: 	at com.google.android.ims.rcsmigration.IRcsStateProvider$Stub.dispatchTransaction(SourceFile:14)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: 	at com.google.android.aidl.BaseStub.onTransact(SourceFile:18)
+04-12 14:54:33.223 18018 18155 W RcsProvisioning: 	at android.os.Binder.execTransact(Binder.java:731)
+04-12 14:54:33.223 18018 18155 D RcsProvisioning: Retrieving backup token
+04-12 14:54:33.223 18018 18155 D RcsProvisioning: Exception while getting subscriber Id. Using default
+04-12 14:54:33.225 18018 18018 V BugleRcs: kicking off RCS sending/receiving
+04-12 14:54:33.240 18018 18018 V BugleAction: no RCS because we're not registered
+04-12 14:54:33.242  4371  4587 W CarrierServices: [232] bmc.a: No config URL. RCS will be disabled!
+04-12 14:54:33.243 18018 18018 I BugleRcs: RcsAvailability ACS url: null
+04-12 14:54:33.277  2879  3204 D EGL_emulation: eglMakeCurrent: 0xdf105a20: ver 3 1 (tinfo 0xdf103ab0)
+04-12 14:54:33.280  3141  3474 D EGL_emulation: eglMakeCurrent: 0xc74d51e0: ver 3 1 (tinfo 0xdd6d3b70)
+04-12 14:54:33.287  2201  2511 D EGL_emulation: eglMakeCurrent: 0xca6a1180: ver 3 1 (tinfo 0xca77f290)
+04-12 14:54:33.296  2201  2511 D EGL_emulation: eglMakeCurrent: 0xca6a1180: ver 3 1 (tinfo 0xca77f290)
+04-12 14:54:33.300  2562 24930 I Icing   : Indexing done com.google.android.gms-apps
+04-12 14:54:33.301  2562 24930 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+04-12 14:54:33.317  2201  2511 D EGL_emulation: eglMakeCurrent: 0xca6a1180: ver 3 1 (tinfo 0xca77f290)
+04-12 14:54:33.341  2562 24930 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+04-12 14:54:33.342  2562 24930 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+04-12 14:54:33.355  2562 24930 I Icing   : Indexing done com.google.android.gms-apps
+04-12 14:54:33.357 18018 18155 D RcsProvisioning: No backup token found
+04-12 14:54:33.357 18018 18155 D RcsProvisioning: Clearing backup token
+04-12 14:54:33.357 18018 18155 D RcsProvisioning: Exception while getting subscriber Id. Using default
+04-12 14:54:33.413 18018 18155 I CarrierServices: [586] RcsStateProvider.onMigrationComplete: Deleted transfers file: false
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: Failed to read configuration: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: java.io.FileNotFoundException: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open0(Native Method)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open(FileInputStream.java:231)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.<init>(FileInputStream.java:165)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:560)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:202)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at ion.a(SourceFile:2)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at idl.a(SourceFile:4)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at idm.a(SourceFile:7)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at iez.buildConferencesFileName(SourceFile:30)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at com.google.android.apps.messaging.rcsmigration.RcsStateProvider.onMigrationComplete(SourceFile:48)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at com.google.android.ims.rcsmigration.IRcsStateProvider$Stub.dispatchTransaction(SourceFile:14)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at com.google.android.aidl.BaseStub.onTransact(SourceFile:18)
+04-12 14:54:33.417 18018 18155 W RcsProvisioning: 	at android.os.Binder.execTransact(Binder.java:731)
+04-12 14:54:33.417 18018 18155 D RcsProvisioning: Retrieving backup token
+04-12 14:54:33.417 18018 18155 D RcsProvisioning: Exception while getting subscriber Id. Using default
+04-12 14:54:33.449 26332 26332 W oid.scorekeepe: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+04-12 14:54:33.450 26332 26332 W oid.scorekeepe: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+04-12 14:54:33.519 26332 26332 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@ade24b9 in: CREATED
+04-12 14:54:33.525 26332 26332 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@ade24b9 in: STARTED
+04-12 14:54:33.527 26332 26332 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@ade24b9 in: RESUMED
+04-12 14:54:33.551 26332 26332 D OpenGLRenderer: Skia GL Pipeline
+04-12 14:54:33.557 18018 18155 D RcsProvisioning: No backup token found
+04-12 14:54:33.572  1816  2271 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+04-12 14:54:33.584  4371  4371 I CarrierServices: [2] aww.a: Unbinding RcsMigrationService
+04-12 14:54:33.605 18018 18155 I CarrierServices: [586] inq.shouldUseCarrierServicesApkForV1Apis: Checking if using CarrierServices.apk is possible. Enabled: true, isAtLeastM: true, runningInsideBugle: true
+04-12 14:54:33.635 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:33.640 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:33.640 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: Failed to read configuration: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: java.io.FileNotFoundException: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open0(Native Method)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open(FileInputStream.java:231)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.<init>(FileInputStream.java:165)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:560)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:202)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at ion.a(SourceFile:2)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at idl.a(SourceFile:4)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at idm.a(SourceFile:7)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at com.google.android.apps.messaging.rcsmigration.RcsStateProvider.buildRcsState(SourceFile:81)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at com.google.android.apps.messaging.rcsmigration.RcsStateProvider.getRcsState(SourceFile:6)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at com.google.android.ims.rcsmigration.IRcsStateProvider$Stub.dispatchTransaction(SourceFile:10)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at com.google.android.aidl.BaseStub.onTransact(SourceFile:18)
+04-12 14:54:33.647 18018 18155 W RcsProvisioning: 	at android.os.Binder.execTransact(Binder.java:731)
+04-12 14:54:33.652 18018 18155 D RcsProvisioning: Retrieving backup token
+04-12 14:54:33.652 18018 18155 D RcsProvisioning: Exception while getting subscriber Id. Using default
+04-12 14:54:33.684 26332 26369 D HostConnection: HostConnection::get() New Host Connection established 0xdf12f280, tid 26369
+04-12 14:54:33.689 26332 26369 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+04-12 14:54:33.694  1655  1655 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+04-12 14:54:33.697  1655  6915 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+04-12 14:54:33.700 26332 26369 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+04-12 14:54:33.701  1655  6915 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+04-12 14:54:33.702 26332 26369 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+04-12 14:54:33.702 26332 26369 I OpenGLRenderer: Initialized EGL, version 1.4
+04-12 14:54:33.702 26332 26369 D OpenGLRenderer: Swap behavior 1
+04-12 14:54:33.703 26332 26369 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-12 14:54:33.703 26332 26369 D OpenGLRenderer: Swap behavior 0
+04-12 14:54:33.718 26332 26369 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+04-12 14:54:33.719 26332 26369 D EGL_emulation: eglCreateContext: 0xdf1052a0: maj 3 min 1 rcv 4
+04-12 14:54:33.722 26332 26369 D EGL_emulation: eglMakeCurrent: 0xdf1052a0: ver 3 1 (tinfo 0xdf103840)
+04-12 14:54:33.727 26332 26369 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+04-12 14:54:33.728 26332 26369 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+04-12 14:54:33.739  1816  1856 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+04-12 14:54:33.767 26332 26369 D HostConnection: createUnique: call
+04-12 14:54:33.767 26332 26369 D HostConnection: HostConnection::get() New Host Connection established 0xdf12f5f0, tid 26369
+04-12 14:54:33.770 26332 26369 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+04-12 14:54:33.770 26332 26369 E eglCodecCommon: GoldfishAddressSpaceHostMemoryAllocator: ioctl_ping failed for device_type=5, ret=-1
+04-12 14:54:33.788 18018 18155 D RcsProvisioning: No backup token found
+04-12 14:54:33.789 18018 18155 D RcsProvisioning: Retrieving backup token
+04-12 14:54:33.789 18018 18155 D RcsProvisioning: Exception while getting subscriber Id. Using default
+04-12 14:54:33.873 26332 26369 D EGL_emulation: eglMakeCurrent: 0xdf1052a0: ver 3 1 (tinfo 0xdf103840)
+04-12 14:54:33.896  1991  2150 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@18d3792)
+04-12 14:54:33.899  1991  2017 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@18d3792)
+04-12 14:54:33.907 26332 26369 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 3 2
+04-12 14:54:33.926 18018 18155 D RcsProvisioning: No backup token found
+04-12 14:54:33.943 18018 18155 W RcsProvisioning: Failed to read configuration: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: java.io.FileNotFoundException: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open0(Native Method)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open(FileInputStream.java:231)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.<init>(FileInputStream.java:165)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:560)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:202)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at ion.a(SourceFile:2)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at idl.a(SourceFile:4)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at idm.a(SourceFile:7)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at iez.buildConferencesFileName(SourceFile:30)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at com.google.android.apps.messaging.rcsmigration.RcsStateProvider.buildRcsState(SourceFile:129)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at com.google.android.apps.messaging.rcsmigration.RcsStateProvider.getRcsState(SourceFile:6)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at com.google.android.ims.rcsmigration.IRcsStateProvider$Stub.dispatchTransaction(SourceFile:10)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at com.google.android.aidl.BaseStub.onTransact(SourceFile:18)
+04-12 14:54:33.944 18018 18155 W RcsProvisioning: 	at android.os.Binder.execTransact(Binder.java:731)
+04-12 14:54:33.944 18018 18155 D RcsProvisioning: Retrieving backup token
+04-12 14:54:33.944 18018 18155 D RcsProvisioning: Exception while getting subscriber Id. Using default
+04-12 14:54:34.063  2980  2980 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+04-12 14:54:34.063  2980  2980 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+04-12 14:54:34.073  1991  2026 I ActivityManager: Displayed com.example.android.scorekeeper/.MainActivity: +1s257ms
+04-12 14:54:34.087 18018 18155 D RcsProvisioning: No backup token found
+04-12 14:54:34.088 18018 18155 E CarrierServices: [586] iez.getFile: File not found.: /data/user/0/com.google.android.apps.messaging/files/httpft_pending (No such file or directory)
+04-12 14:54:34.088 18018 18155 E CarrierServices: 	java.io.FileInputStream.open0(Native Method)
+04-12 14:54:34.088 18018 18155 E CarrierServices: 	java.io.FileInputStream.open(FileInputStream.java:231)
+04-12 14:54:34.088 18018 18155 E CarrierServices: 	java.io.FileInputStream.<init>(FileInputStream.java:165)
+04-12 14:54:34.088 18018 18155 E CarrierServices: 	android.app.ContextImpl.openFileInput(ContextImpl.java:560)
+04-12 14:54:34.088 18018 18155 E CarrierServices: 	android.content.ContextWrapper.openFileInput(ContextWrapper.java:202)
+04-12 14:54:34.088 18018 18155 E CarrierServices: 	iez.getFile(SourceFile:20)
+04-12 14:54:34.088 18018 18155 E CarrierServices: 	com.google.android.apps.messaging.rcsmigration.RcsStateProvider.buildRcsState(SourceFile:136)
+04-12 14:54:34.088 18018 18155 E CarrierServices: 	com.google.android.apps.messaging.rcsmigration.RcsStateProvider.getRcsState(SourceFile:6)
+04-12 14:54:34.088 18018 18155 E CarrierServices: 	com.google.android.ims.rcsmigration.IRcsStateProvider$Stub.dispatchTransaction(SourceFile:10)
+04-12 14:54:34.088 18018 18155 E CarrierServices: 	com.google.android.aidl.BaseStub.onTransact(SourceFile:18)
+04-12 14:54:34.088 18018 18155 E CarrierServices: 	android.os.Binder.execTransact(Binder.java:731)
+04-12 14:54:34.092  4371 26374 I CarrierServices: [314] awt.doInBackground: Saving RCS State
+04-12 14:54:34.093  4371 26374 I CarrierServices: [314] awt.doInBackground: Old operation mode: 2
+04-12 14:54:34.095  4371 26374 I CarrierServices: [314] awt.doInBackground: New operation mode: 2
+04-12 14:54:34.135 18018 18155 I CarrierServices: [586] inq.shouldUseCarrierServicesApkForV1Apis: Checking if using CarrierServices.apk is possible. Enabled: true, isAtLeastM: true, runningInsideBugle: true
+04-12 14:54:34.141  1816  1816 W SurfaceFlinger: couldn't log to binary event log: overflow.
+04-12 14:54:34.142  1816  1816 W SurfaceFlinger: couldn't log to binary event log: overflow.
+04-12 14:54:34.153 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:34.156 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:34.157 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:34.176 18018 18155 W RcsProvisioning: Failed to read configuration: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: java.io.FileNotFoundException: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open0(Native Method)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open(FileInputStream.java:231)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.<init>(FileInputStream.java:165)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:560)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:202)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at ion.a(SourceFile:2)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at idl.a(SourceFile:4)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at idm.a(SourceFile:7)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at com.google.android.apps.messaging.rcsmigration.RcsStateProvider.buildRcsState(SourceFile:81)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at com.google.android.apps.messaging.rcsmigration.RcsStateProvider.getRcsState(SourceFile:6)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at com.google.android.ims.rcsmigration.IRcsStateProvider$Stub.dispatchTransaction(SourceFile:10)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at com.google.android.aidl.BaseStub.onTransact(SourceFile:18)
+04-12 14:54:34.177 18018 18155 W RcsProvisioning: 	at android.os.Binder.execTransact(Binder.java:731)
+04-12 14:54:34.177 18018 18155 D RcsProvisioning: Retrieving backup token
+04-12 14:54:34.177 18018 18155 D RcsProvisioning: Exception while getting subscriber Id. Using default
+04-12 14:54:34.212 26332 26360 D InputManagerEventInjectionStrategy: Creating injection strategy with input manager.
+04-12 14:54:34.212 26332 26360 W oid.scorekeepe: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (light greylist, reflection)
+04-12 14:54:34.212 26332 26360 W oid.scorekeepe: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (light greylist, reflection)
+04-12 14:54:34.213 26332 26360 W oid.scorekeepe: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (light greylist, reflection)
+04-12 14:54:34.213 26332 26360 W oid.scorekeepe: Accessing hidden method Landroid/view/InputEvent;->getSequenceNumber()I (light greylist, reflection)
+04-12 14:54:34.242 26332 26360 W oid.scorekeepe: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (light greylist, reflection)
+04-12 14:54:34.248  1816  1855 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen com.example.android.scorekeeper#0
+04-12 14:54:34.248  1816  1855 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen com.example.android.scorekeeper#0
+04-12 14:54:34.267  3141  3141 I StreamRenderer: cleanUpRendererScope(nowcards--5545398543710202060)
+04-12 14:54:34.290 26332 26332 W oid.scorekeepe: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (light greylist, reflection)
+04-12 14:54:34.290 26332 26332 W oid.scorekeepe: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (light greylist, reflection)
+04-12 14:54:34.290 26332 26332 W oid.scorekeepe: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (light greylist, reflection)
+04-12 14:54:34.317 18018 18155 D RcsProvisioning: No backup token found
+04-12 14:54:34.317 18018 18155 D RcsProvisioning: Retrieving backup token
+04-12 14:54:34.317 18018 18155 D RcsProvisioning: Exception while getting subscriber Id. Using default
+04-12 14:54:34.324  3141  3141 W SearchService: Abort, client detached.
+04-12 14:54:34.325  3141  3141 I StreamController: cleanUpControllerScope(nowcards--5545398543710202060)
+04-12 14:54:34.328 26332 26332 W oid.scorekeepe: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (light greylist, reflection)
+04-12 14:54:34.328 26332 26332 W oid.scorekeepe: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (light greylist, reflection)
+04-12 14:54:34.328 26332 26332 W oid.scorekeepe: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (light greylist, reflection)
+04-12 14:54:34.357  3141 25914 I PBSessionCacheImpl: Deleted sessionId[85217229300] from persistence.
+04-12 14:54:34.388 26332 26332 I ViewInteraction: Performing 'single click' action on view (with id: com.example.android.scorekeeper:id/increaseTeam1 and with content description: is "Plus Button" and Child at position 3 in parent Child at position 0 in parent with class name: is "android.widget.LinearLayout" and is displayed on the screen to the user)
+04-12 14:54:34.390 26332 26343 I oid.scorekeepe: Background concurrent copying GC freed 6137(822KB) AllocSpace objects, 1(20KB) LOS objects, 50% free, 1629KB/3MB, paused 5.512ms total 32.902ms
+04-12 14:54:34.433  3141 24970 I WorkController: WorkProxy is not enqueued because WorkController is disposed: WorkProxy{Name=context::j, WorkerId=context, id=8347476}
+04-12 14:54:34.434  3141 24970 I WorkController: WorkProxy is not enqueued because WorkController is disposed: WorkProxy{Name=context::m, WorkerId=context, id=315ba77}
+04-12 14:54:34.434  3141 24970 I WorkController: WorkProxy is not enqueued because WorkController is disposed: WorkProxy{Name=context::n, WorkerId=context, id=e1ad6e4}
+04-12 14:54:34.435  3141 24970 I WorkController: WorkProxy is not enqueued because WorkController is disposed: WorkProxy{Name=context::p, WorkerId=context, id=73f274d}
+04-12 14:54:34.458  2182 26025 E ctxmgr  : [AppIntervalImpl] closeInterval: ongoing [CONTEXT service_id=47 ]
+04-12 14:54:34.458 18018 18155 D RcsProvisioning: No backup token found
+04-12 14:54:34.514  2201  2511 D EGL_emulation: eglMakeCurrent: 0xca6a1180: ver 3 1 (tinfo 0xca77f290)
+04-12 14:54:34.518  1991  2865 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@83acb7)
+04-12 14:54:34.521  1645  7842 W audio_hw_generic: Not supplying enough data to HAL, expected position 21074693 , only wrote 21074400
+04-12 14:54:34.532 18018 18155 W RcsProvisioning: Failed to read configuration: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: java.io.FileNotFoundException: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open0(Native Method)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open(FileInputStream.java:231)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.<init>(FileInputStream.java:165)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:560)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:202)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at ion.a(SourceFile:2)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at idl.a(SourceFile:4)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at idm.a(SourceFile:7)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at iez.buildConferencesFileName(SourceFile:30)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at com.google.android.apps.messaging.rcsmigration.RcsStateProvider.buildRcsState(SourceFile:129)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at com.google.android.apps.messaging.rcsmigration.RcsStateProvider.getRcsState(SourceFile:6)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at com.google.android.ims.rcsmigration.IRcsStateProvider$Stub.dispatchTransaction(SourceFile:10)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at com.google.android.aidl.BaseStub.onTransact(SourceFile:18)
+04-12 14:54:34.533 18018 18155 W RcsProvisioning: 	at android.os.Binder.execTransact(Binder.java:731)
+04-12 14:54:34.533 18018 18155 D RcsProvisioning: Retrieving backup token
+04-12 14:54:34.533 18018 18155 D RcsProvisioning: Exception while getting subscriber Id. Using default
+04-12 14:54:34.536  2201  2511 D EGL_emulation: eglMakeCurrent: 0xca6a1180: ver 3 1 (tinfo 0xca77f290)
+04-12 14:54:34.537  1991  2017 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@83acb7)
+04-12 14:54:34.550  2201  2511 D EGL_emulation: eglMakeCurrent: 0xca6a1180: ver 3 1 (tinfo 0xca77f290)
+04-12 14:54:34.573  2201  2511 D EGL_emulation: eglMakeCurrent: 0xca6a1180: ver 3 1 (tinfo 0xca77f290)
+04-12 14:54:34.677 18018 18155 D RcsProvisioning: No backup token found
+04-12 14:54:34.678 18018 18155 E CarrierServices: [586] iez.getFile: File not found.: /data/user/0/com.google.android.apps.messaging/files/httpft_pending (No such file or directory)
+04-12 14:54:34.678 18018 18155 E CarrierServices: 	java.io.FileInputStream.open0(Native Method)
+04-12 14:54:34.678 18018 18155 E CarrierServices: 	java.io.FileInputStream.open(FileInputStream.java:231)
+04-12 14:54:34.678 18018 18155 E CarrierServices: 	java.io.FileInputStream.<init>(FileInputStream.java:165)
+04-12 14:54:34.678 18018 18155 E CarrierServices: 	android.app.ContextImpl.openFileInput(ContextImpl.java:560)
+04-12 14:54:34.678 18018 18155 E CarrierServices: 	android.content.ContextWrapper.openFileInput(ContextWrapper.java:202)
+04-12 14:54:34.678 18018 18155 E CarrierServices: 	iez.getFile(SourceFile:20)
+04-12 14:54:34.678 18018 18155 E CarrierServices: 	com.google.android.apps.messaging.rcsmigration.RcsStateProvider.buildRcsState(SourceFile:136)
+04-12 14:54:34.678 18018 18155 E CarrierServices: 	com.google.android.apps.messaging.rcsmigration.RcsStateProvider.getRcsState(SourceFile:6)
+04-12 14:54:34.678 18018 18155 E CarrierServices: 	com.google.android.ims.rcsmigration.IRcsStateProvider$Stub.dispatchTransaction(SourceFile:10)
+04-12 14:54:34.678 18018 18155 E CarrierServices: 	com.google.android.aidl.BaseStub.onTransact(SourceFile:18)
+04-12 14:54:34.678 18018 18155 E CarrierServices: 	android.os.Binder.execTransact(Binder.java:731)
+04-12 14:54:34.688  4371 26289 I CarrierServices: [312] awt.doInBackground: Saving RCS State
+04-12 14:54:34.688  4371 26289 I CarrierServices: [312] awt.doInBackground: Old operation mode: 2
+04-12 14:54:34.693  4371 26289 I CarrierServices: [312] awt.doInBackground: New operation mode: 2
+04-12 14:54:34.694 18018 18155 I CarrierServices: [586] RcsStateProvider.onMigrationComplete: Migration complete.
+04-12 14:54:34.708 18018 18155 I CarrierServices: [586] inq.shouldUseCarrierServicesApkForV1Apis: Checking if using CarrierServices.apk is possible. Enabled: true, isAtLeastM: true, runningInsideBugle: true
+04-12 14:54:34.720 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:34.725 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:34.725 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:34.725 18018 18155 I CarrierServices: [586] RcsStateProvider.onMigrationComplete: Rcs Engine should be running in cs.apk. Stopping JibeService.
+04-12 14:54:34.756 26332 26332 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=with text: is "1"}' assertion on view (with id: com.example.android.scorekeeper:id/score_1 and with text: is "1" and Child at position 2 in parent Child at position 0 in parent an instance of android.widget.LinearLayout and is displayed on the screen to the user)
+04-12 14:54:34.777 26332 26332 I ViewInteraction: Performing 'single click' action on view (with id: com.example.android.scorekeeper:id/decreaseTeam1 and with content description: is "Minus Button" and Child at position 1 in parent Child at position 0 in parent with class name: is "android.widget.LinearLayout" and is displayed on the screen to the user)
+04-12 14:54:34.796 18018 18155 I CarrierServices: [586] RcsStateProvider.onMigrationComplete: JibeService stopped: true
+04-12 14:54:34.804 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:34.808 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:34.809 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:34.821 18018 18155 I CarrierServices: [586] jsn.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+04-12 14:54:34.821 18018 18155 I CarrierServices: [586] jsn.connect: Binding to JibeService in CarrierServices.
+04-12 14:54:34.851 18018 18018 D RcsClientLib: Service com.google.android.rcs.client.chatsession.ChatSessionService connected. Will notify listeners: true
+04-12 14:54:34.858 18018 18018 V BugleRcs: com.google.android.rcs.client.chatsession.ChatSessionService RCS service connected
+04-12 14:54:34.868 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:34.879 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:34.879 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:34.895 18018 18155 I CarrierServices: [586] jsn.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+04-12 14:54:34.896 18018 18155 I CarrierServices: [586] jsn.connect: Binding to JibeService in CarrierServices.
+04-12 14:54:34.900  1991  2150 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@c4ea942)
+04-12 14:54:34.904  1991  2017 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@c4ea942)
+04-12 14:54:34.918 18018 18018 D RcsClientLib: Service com.google.android.rcs.client.events.EventService connected. Will notify listeners: true
+04-12 14:54:34.919 18018 18018 V BugleRcs: com.google.android.rcs.client.events.EventService RCS service connected
+04-12 14:54:34.932 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:34.937 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:34.937 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:34.948 18018 18155 I CarrierServices: [586] jsn.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+04-12 14:54:34.948 18018 18155 I CarrierServices: [586] jsn.connect: Binding to JibeService in CarrierServices.
+04-12 14:54:34.971 18018 18018 D RcsClientLib: Service com.google.android.rcs.client.contacts.ContactsService connected. Will notify listeners: true
+04-12 14:54:34.971 18018 18018 V BugleRcs: com.google.android.rcs.client.contacts.ContactsService RCS service connected
+04-12 14:54:34.985 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:34.994 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:34.995 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:35.000 18018 18155 I CarrierServices: [586] jsn.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+04-12 14:54:35.002 18018 18155 I CarrierServices: [586] jsn.connect: Binding to JibeService in CarrierServices.
+04-12 14:54:35.013 18018 18018 D RcsClientLib: Service com.google.android.rcs.client.filetransfer.FileTransferService connected. Will notify listeners: true
+04-12 14:54:35.013 18018 18018 V BugleRcs: com.google.android.rcs.client.filetransfer.FileTransferService RCS service connected
+04-12 14:54:35.023 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:35.026 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:35.028 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:35.031 18018 18155 I CarrierServices: [586] jsn.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+04-12 14:54:35.032 18018 18155 I CarrierServices: [586] jsn.connect: Binding to JibeService in CarrierServices.
+04-12 14:54:35.040 18018 18018 D RcsClientLib: Service com.google.android.rcs.client.locationsharing.LocationSharingService connected. Will notify listeners: true
+04-12 14:54:35.040 18018 18018 V BugleRcs: com.google.android.rcs.client.locationsharing.LocationSharingService RCS service connected
+04-12 14:54:35.051 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:35.054 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:35.055 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:35.060 18018 18155 I CarrierServices: [586] jsn.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+04-12 14:54:35.061 18018 18155 I CarrierServices: [586] jsn.connect: Binding to JibeService in CarrierServices.
+04-12 14:54:35.070 18018 18018 D RcsClientLib: Service com.google.android.rcs.client.ims.ImsConnectionTrackerService connected. Will notify listeners: true
+04-12 14:54:35.070 18018 18018 V BugleRcs: com.google.android.rcs.client.ims.ImsConnectionTrackerService RCS service connected
+04-12 14:54:35.079 18018 18018 V BugleRcs: kicking off RCS sending/receiving
+04-12 14:54:35.087 18018 18018 V BugleAction: no RCS because we're not registered
+04-12 14:54:35.088 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:35.093 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:35.094 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:35.102 18018 18155 I CarrierServices: [586] jsn.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+04-12 14:54:35.102 18018 18155 I CarrierServices: [586] jsn.connect: Binding to JibeService in CarrierServices.
+04-12 14:54:35.119 18018 18018 D RcsClientLib: Service com.google.android.rcs.client.profile.RcsProfileService connected. Will notify listeners: true
+04-12 14:54:35.120 18018 18018 V BugleRcs: com.google.android.rcs.client.profile.RcsProfileService RCS service connected
+04-12 14:54:35.124 18018 18018 V BugleRcs: kicking off RCS sending/receiving
+04-12 14:54:35.130 18018 18155 I CarrierServices: [586] inq.e: Network Operator: 310260
+04-12 14:54:35.131 18018 18018 V BugleAction: no RCS because we're not registered
+04-12 14:54:35.135  4371  4533 W CarrierServices: [228] bmc.a: No config URL. RCS will be disabled!
+04-12 14:54:35.135 18018 18018 I BugleRcs: RcsAvailability ACS url: null
+04-12 14:54:35.139 18018 18155 I CarrierServices: [586] inq.e: carrierWithOldEcApis: false
+04-12 14:54:35.139 18018 18155 I CarrierServices: [586] inq.e: hasDialerThatSupportsNewEc: false
+04-12 14:54:35.151 18018 18155 I CarrierServices: [586] jsn.connect: shouldUseCarrierServicesJibeService: true, CarrierServices rcs service found: true
+04-12 14:54:35.151 18018 18155 I CarrierServices: [586] jsn.connect: Binding to JibeService in CarrierServices.
+04-12 14:54:35.162 18018 18018 D RcsClientLib: Service com.google.android.rcs.client.businessinfo.BusinessInfoService connected. Will notify listeners: true
+04-12 14:54:35.162 18018 18018 V BugleRcs: com.google.android.rcs.client.businessinfo.BusinessInfoService RCS service connected
+04-12 14:54:35.166 18018 18018 V BugleRcs: kicking off RCS sending/receiving
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: Failed to read configuration: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: java.io.FileNotFoundException: /data/user/0/com.google.android.apps.messaging/files/rcsconfig (No such file or directory)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open0(Native Method)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.open(FileInputStream.java:231)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: 	at java.io.FileInputStream.<init>(FileInputStream.java:165)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:560)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:202)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: 	at ion.a(SourceFile:2)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: 	at idl.a(SourceFile:4)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: 	at idm.a(SourceFile:7)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: 	at com.google.android.apps.messaging.rcsmigration.RcsStateProvider.onMigrationComplete(SourceFile:27)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: 	at com.google.android.ims.rcsmigration.IRcsStateProvider$Stub.dispatchTransaction(SourceFile:14)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: 	at com.google.android.aidl.BaseStub.onTransact(SourceFile:18)
+04-12 14:54:35.168 18018 18155 W RcsProvisioning: 	at android.os.Binder.execTransact(Binder.java:731)
+04-12 14:54:35.168 18018 18155 D RcsProvisioning: Retrieving backup token
+04-12 14:54:35.168 18018 18155 D RcsProvisioning: Exception while getting subscriber Id. Using default
+04-12 14:54:35.171 18018 18018 V BugleAction: no RCS because we're not registered
+04-12 14:54:35.177  4371  4533 W CarrierServices: [228] bmc.a: No config URL. RCS will be disabled!
+04-12 14:54:35.177 18018 18018 I BugleRcs: RcsAvailability ACS url: null
+04-12 14:54:35.189 26332 26332 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=with text: is "0"}' assertion on view (with id: com.example.android.scorekeeper:id/score_1 and with text: is "0" and Child at position 2 in parent Child at position 0 in parent an instance of android.widget.LinearLayout and is displayed on the screen to the user)
+04-12 14:54:35.217 26332 26332 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@ade24b9 in: PAUSED
+04-12 14:54:35.239  1655  6915 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+04-12 14:54:35.244  1655  6915 I chatty  : uid=1000(system) HwBinder:1655_3 identical 1 line
+04-12 14:54:35.248  1655  6915 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+04-12 14:54:35.288  3141  3474 D EGL_emulation: eglMakeCurrent: 0xc74d51e0: ver 3 1 (tinfo 0xdd6d3b70)
+04-12 14:54:35.307 18018 18155 D RcsProvisioning: No backup token found
+04-12 14:54:35.307 18018 18155 D RcsProvisioning: Clearing backup token
+04-12 14:54:35.307 18018 18155 D RcsProvisioning: Exception while getting subscriber Id. Using default
+04-12 14:54:35.321 26332 26360 I TestRunner: finished: scorePlusMinusTest(com.example.android.scorekeeper.ScorePlusMinusTest)

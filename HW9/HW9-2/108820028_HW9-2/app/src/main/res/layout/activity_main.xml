@@ -57,13 +57,13 @@
 
         <ImageButton
             android:id="@+id/increaseTeam1"
+            style="@style/PlusButtons"
             android:layout_width="@dimen/button_size"
             android:layout_height="@dimen/button_size"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            style="@style/PlusButtons"
-            android:onClick="increaseScore"/>
+            android:onClick="increaseScore" />
 
     </RelativeLayout>
 
