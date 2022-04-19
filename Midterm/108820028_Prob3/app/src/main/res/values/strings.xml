@@ -15,11 +15,12 @@
   -->
 
 <resources>
-    <string name="app_name">Tab Experiment</string>
+    <string name="app_name">108820028_Prob3</string>
 
-    <string name="tab_1">These are the top stories:</string>
-    <string name="tab_2">Tech news you can use:</string>
-    <string name="tab_3">Cooking tips:</string>
+    <string name="tab_1">This is Tab1 fragment</string>
+    <string name="tab_2">This is Tab2 fragment</string>
+    <string name="tab_3">This is Tab3 fragment</string>
+    <string name="tab_4">This is Tab4 fragment</string>
     <string name="tab_label1">Top Stories</string>
     <string name="tab_label2">Tech News</string>
     <string name="tab_label3">Cooking</string>

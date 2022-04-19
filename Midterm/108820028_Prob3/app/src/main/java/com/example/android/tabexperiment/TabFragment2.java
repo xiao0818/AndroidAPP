@@ -29,11 +29,9 @@ import android.view.ViewGroup;
  */
 public class TabFragment2 extends Fragment {
 
-
     public TabFragment2() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

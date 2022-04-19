@@ -507,6 +507,10 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color tab1
+color tab2
+color tab3
+color tab4
 color tooltip_background_dark
 color tooltip_background_light
 dimen abc_action_bar_content_inset_material
@@ -1031,6 +1035,7 @@ layout support_simple_spinner_dropdown_item
 layout tab_fragment1
 layout tab_fragment2
 layout tab_fragment3
+layout tab_fragment4
 layout tooltip
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -1079,6 +1084,7 @@ string status_bar_notification_info_overflow
 string tab_1
 string tab_2
 string tab_3
+string tab_4
 string tab_label1
 string tab_label2
 string tab_label3

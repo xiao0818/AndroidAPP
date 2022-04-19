@@ -29,7 +29,6 @@ import android.view.ViewGroup;
  */
 public class TabFragment3 extends Fragment {
 
-
     public TabFragment3() {
         // Required empty public constructor
     }
