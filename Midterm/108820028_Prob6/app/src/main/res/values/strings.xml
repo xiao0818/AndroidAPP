@@ -17,7 +17,7 @@
 
 <resources>
     <!-- Title of app -->
-    <string name="app_name">108820028_HW5-1</string>
+    <string name="app_name">108820028_Prob6</string>
 
     <!-- Hint for first operand EditText -->
     <string name="type_operand_one_hint">Type Operand 1</string>
