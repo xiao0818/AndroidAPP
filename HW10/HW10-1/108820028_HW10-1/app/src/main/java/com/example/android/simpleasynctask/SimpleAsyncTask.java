@@ -15,7 +15,10 @@
  */
 package com.example.android.simpleasynctask;
 
+import android.annotation.SuppressLint;
 import android.os.AsyncTask;
+import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import java.lang.ref.WeakReference;
@@ -26,14 +29,16 @@ import java.util.Random;
  * background task -- in this case, it just sleeps for a random amount of time.
  */
 
-public class SimpleAsyncTask extends AsyncTask<Void,Void, String> {
+public class SimpleAsyncTask extends AsyncTask<Void, Integer, String> {
 
     // The TextView where we will show results
     private WeakReference<TextView> mTextView;
+    private WeakReference<ProgressBar> mProgressBar;
 
     // Constructor that provides a reference to the TextView from the MainActivity
-    SimpleAsyncTask(TextView tv) {
-            mTextView = new WeakReference<>(tv);
+    SimpleAsyncTask(TextView tv, ProgressBar pb) {
+        mTextView = new WeakReference<>(tv);
+        mProgressBar = new WeakReference<>(pb);
     }
 
     /**
@@ -45,24 +50,30 @@ public class SimpleAsyncTask extends AsyncTask<Void,Void, String> {
      */
     @Override
     protected String doInBackground(Void... voids) {
-
         // Generate a random number between 0 and 10.
         Random r = new Random();
-        int n = r.nextInt(11);
-
+        int n = r.nextInt(21);
         // Make the task take long enough that we have
         // time to rotate the phone while it is running.
-        int s = n * 200;
-
+        int s = n * 100;
         // Sleep for the random amount of time.
-        try {
-            Thread.sleep(s);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        for (int i = 0; i < n; i++){
+            try {
+                publishProgress(i * 100 / n);
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
 
         // Return a String result.
         return "Awake at last after sleeping for " + s + " milliseconds!";
+    }
+
+    @Override
+    protected void onProgressUpdate(Integer... values) {
+        super.onProgressUpdate(values);
+        mProgressBar.get().setProgress(values[0]);
     }
 
     /**
@@ -71,5 +82,11 @@ public class SimpleAsyncTask extends AsyncTask<Void,Void, String> {
      */
     protected void onPostExecute(String result) {
         mTextView.get().setText(result);
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        mProgressBar.get().setVisibility(View.GONE);
     }
 }
