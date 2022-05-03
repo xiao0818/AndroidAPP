@@ -54,8 +54,9 @@ public class CustomReceiver extends BroadcastReceiver {
                             context.getString(R.string.power_disconnected);
                     break;
                 case ACTION_CUSTOM_BROADCAST:
+                    int number = intent.getIntExtra("number", 0);
                     toastMessage =
-                            context.getString(R.string.custom_broadcast_toast);
+                            context.getString(R.string.custom_broadcast_toast) + "\nSquare of the Random number: " + (number * number);
                     break;
             }
 
