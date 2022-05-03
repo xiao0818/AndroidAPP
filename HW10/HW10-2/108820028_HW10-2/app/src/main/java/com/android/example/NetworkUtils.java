@@ -22,11 +22,8 @@ public class NetworkUtils {
             URL requestURL = new URL(queryString);
             urlConnection = (HttpURLConnection) requestURL.openConnection();
 
-            // Get the InputStream.
             InputStream inputStream = urlConnection.getInputStream();
-            // Create a buffered reader from that input stream.
             reader = new BufferedReader(new InputStreamReader(inputStream));
-            // Use a StringBuilder to hold the incoming response.
             StringBuilder builder = new StringBuilder();
 
             String line;
