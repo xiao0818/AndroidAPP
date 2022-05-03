@@ -217,8 +217,10 @@ public class MainActivity extends AppCompatActivity {
         NotificationCompat.Builder notifyBuilder = getNotificationBuilder();
 
         // Update the notification style to BigPictureStyle.
-        notifyBuilder.setStyle(new NotificationCompat.BigPictureStyle()
-                .bigPicture(androidImage)
+        notifyBuilder.setStyle(new NotificationCompat.InboxStyle()
+                .addLine("1111First1111")
+                .addLine("2222Second2222")
+                .addLine("3333Third3333")
                 .setBigContentTitle(getString(R.string.notification_updated)));
 
         // Deliver the notification.
