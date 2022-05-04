@@ -90,7 +90,10 @@ public class MainActivity extends AppCompatActivity {
                 .getDefaultSharedPreferences(this);
         String marketPref = sharedPref
                 .getString("sync_frequency", "-1");
-        displayToast(marketPref);
+
+        String deliveryPref = sharedPref
+                .getString("delivery", "-1");
+        displayToast(marketPref +" " + deliveryPref);
     }
 
     /**

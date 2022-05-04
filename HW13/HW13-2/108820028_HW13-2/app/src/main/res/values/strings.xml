@@ -15,7 +15,7 @@
   -->
 
 <resources>
-    <string name="app_name">Droid Cafe</string>
+    <string name="app_name">108820028_HW13-2</string>
     <string name="action_settings">Settings</string>
     <string name="intro_text">Droid Desserts</string>
     <string name="donuts">Donuts are glazed and sprinkled with candy.</string>
@@ -77,6 +77,13 @@
         <item>1</item>
         <item>0</item>
         <item>-1</item>
+    </string-array>
+
+    <string name="pref_delivery">Choose a delivery method:</string>
+    <string-array name="pref_delivery_list_titles">
+        <item>Same day messenger service</item>
+        <item>Next day ground delivery</item>
+        <item>Pick up</item>
     </string-array>
 
     <!-- Example settings for Data & Sync -->
