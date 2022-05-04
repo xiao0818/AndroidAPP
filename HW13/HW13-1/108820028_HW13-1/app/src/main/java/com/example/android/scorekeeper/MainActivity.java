@@ -16,6 +16,7 @@
 
 package com.example.android.scorekeeper;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatDelegate;
@@ -30,7 +31,8 @@ import android.widget.TextView;
  * for each team using Button views.
  */
 public class MainActivity extends AppCompatActivity {
-
+    private SharedPreferences mPreferences;
+    private String sharedPrefFile = "com.example.android.scorekeeper";
     // Member variables for holding the score
     private int mScore1;
     private int mScore2;
@@ -51,16 +53,23 @@ public class MainActivity extends AppCompatActivity {
         //Find the TextViews by ID
         mScoreText1 = findViewById(R.id.score_1);
         mScoreText2 = findViewById(R.id.score_2);
+        mPreferences = getSharedPreferences(sharedPrefFile, MODE_PRIVATE);
 
-        // Restores the scores if there is savedInstanceState.
-        if (savedInstanceState != null) {
-            mScore1 = savedInstanceState.getInt(STATE_SCORE_1);
-            mScore2 = savedInstanceState.getInt(STATE_SCORE_2);
+        // Restore preferences
+        mScore1 = mPreferences.getInt(STATE_SCORE_1, 0);
+        mScoreText1.setText(String.valueOf(mScore1));
+        mScore2 = mPreferences.getInt(STATE_SCORE_2, 0);
+        mScoreText2.setText(String.valueOf(mScore2));
+    }
 
-            //Set the score text views
-            mScoreText1.setText(String.valueOf(mScore1));
-            mScoreText2.setText(String.valueOf(mScore2));
-        }
+    @Override
+    protected void onPause(){
+        super.onPause();
+
+        SharedPreferences.Editor preferencesEditor = mPreferences.edit();
+        preferencesEditor.putInt(STATE_SCORE_1, mScore1);
+        preferencesEditor.putInt(STATE_SCORE_2, mScore2);
+        preferencesEditor.apply();
     }
 
     /**
@@ -155,17 +164,14 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    /**
-     * Method that is called when the configuration changes,
-     * used to preserve the state of the app.
-     *
-     * @param outState The bundle that will be passed in to the Activity when it is restored.
-     */
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        // Save the scores.
-        outState.putInt(STATE_SCORE_1, mScore1);
-        outState.putInt(STATE_SCORE_2, mScore2);
-        super.onSaveInstanceState(outState);
+    public void Reset(View view) {
+        mScore1 = 0;
+        mScore2 = 0;
+        mScoreText1.setText(String.valueOf(mScore1));
+        mScoreText2.setText(String.valueOf(mScore2));
+
+        SharedPreferences.Editor preferencesEditor = mPreferences.edit();
+        preferencesEditor.clear();
+        preferencesEditor.apply();
     }
 }

@@ -1,0 +1,13 @@
+Question 1
+In which lifecycle method do you save the app state to shared preferences?
+A: onPause()
+
+Question 2
+In which lifecycle method do you restore the app state?
+A: OnCreate()
+
+Question 3
+Can you think of a case where it makes sense to have both shared preferences and instance state?
+A: Yes. 
+   In saveInstanceState, when you close app mean it get removes from memory, information will also lost.
+   In SharedPreferences, information will remain there if you close your app.
